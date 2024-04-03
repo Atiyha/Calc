@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_a"
+        android:layout_margin="20dp"
+        android:hint="Enter a"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_b"
+        android:layout_margin="20dp"
+        android:hint="Enter b"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_Add"
+        android:text="+"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_Subtraction"
+        android:text="-"/>
+
+        <Button
+            android:id="@+id/btn_Multiplication"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*" />
+
+        <Button
+            android:id="@+id/btn_Division"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/result_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Result"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_Squared"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="^" />
+
+
+</LinearLayout>
